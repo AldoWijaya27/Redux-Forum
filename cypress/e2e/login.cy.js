@@ -52,7 +52,7 @@ describe('Login spec', () => {
       .click();
 
     cy.on('window:alert', (str) => {
-      expect(str).to.equal('Email or password is wrong');
+      expect(str).to.equal('email or password is wrong');
     });
   });
 
