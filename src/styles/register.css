@@ -1,0 +1,52 @@
+.form-container__root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  border: 2px solid #ccc;
+  padding: 2em;
+  border-radius: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title {
+  letter-spacing: 2px;
+}
+
+form,
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+input {
+  width: 20em;
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.button-register {
+  width: 100%;
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.button-register:hover {
+  background-color: #aaa;
+}

@@ -1,0 +1,40 @@
+.leaderboard-container {
+  width: 40rem;
+  margin: 7em auto;
+  padding: 3em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.leaderboard-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.head-tb {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.leaderboard-item__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-left: 0;
+}
+
+.leaderboard-map {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
